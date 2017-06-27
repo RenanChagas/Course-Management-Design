@@ -1,0 +1,721 @@
+/*!
+ * Author: Renan Chagas
+ */
+
+ /*-------------------------------------------------*/
+ /* Default - CSS                                   */
+ /*-------------------------------------------------*/
+
+.MDC-center-container{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+ }
+
+.MDC-center-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.MDC-form-text{
+  letter-spacing: 0.7px;
+}
+
+.MDC-btn-huge{
+  width: 160px;
+  font-size: 14px;
+}
+
+.MDC-shadow-0{
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.MDC-shadow-bottom {
+box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.20) !important;
+}
+
+ i.MDC-icon-small {
+   font-size: 1.3rem !important;
+ }
+
+ i.MDC-icon-medium {
+   font-size: 1.5rem !important;
+ }
+
+ .MDC-color-grey-light {
+   color: #E4E4E4 !important;
+ }
+
+ .MDC-avatar-circle-small{
+   border-radius: 50%;
+   border-color: white;
+   border-style: solid;
+   border-width: 2px;
+   width: 45px;
+   height: 45px;
+ }
+
+
+ span.MDC-login-text{
+   font-size: 15px;
+   letter-spacing: 0.15px;
+   line-height: 44px;
+   opacity: 1;
+   -webkit-font-smoothing: antialiased;
+   font-style: normal;
+   font-weight: 500;
+   color: #fff;
+   display: inline;
+   font-feature-settings: 'kern';
+   font-family: "SanFrancisco","sans-serif";
+ }
+
+.MDC-h5-style{
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  font-feature-settings: 'kern';
+  font-family: "SanFrancisco","sans-serif";
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  text-transform: none;
+  text-overflow: ellipsis;
+  overflow: visible !important;
+  transition: color .28s ease;
+  margin-right: 12px;
+}
+
+.MDC-h7-style{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-feature-settings: 'kern';
+  font-family: "SanFrancisco","sans-serif";
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  text-transform: none;
+  text-overflow: ellipsis;
+  overflow: visible !important;
+  transition: color .28s ease;
+  margin-right: 12px;
+}
+
+
+.MDC-color-grey-dark {
+	color: #262e36 !important;
+}
+
+.MDC-color-grey-dark-2{
+  color: #3a424a !important
+}
+
+.MDC-color-blue{
+  color: #2196F3 !important;
+}
+
+/* Dropdown */
+.MDC-dropdown-style {
+  background-color: #fff;
+  border-radius: 2px;
+  display: none;
+  overflow-y: auto;
+  opacity: 0;
+  position: absolute;
+  z-index: 999;
+  width: auto !important;
+}
+
+.MDC-dropdown-style li {
+  clear: both;
+  width: 100%;
+}
+
+.mdc-dropdown-style li:hover, .dropdown-content li.active {
+  background-color: #ffffff !important;
+}
+
+.mdc-dropdown-style  li > a, .dropdown-content li > span {
+  color: #2D2D2D !important;
+  display: block;
+  font-weight: 500 !important;
+  font-size: 15px;
+  font-size: 15px;
+  letter-spacing: 0.15px;
+  opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-feature-settings: 'kern';
+  font-family: "SanFrancisco","sans-serif";
+}
+
+.mdc-dropdown-style li > a > i {
+  line-height: inherit;
+}
+
+@media only screen and (max-width: 600px){
+  .MDC-padding-mobile-0{
+    padding: 0 0px !important;
+  }
+}
+
+.MDC-hover-none:hover{
+  background-color: transparent;
+}
+
+.MDC-left{
+  float: left !important;
+}
+
+ /*-------------------------------------------------*/
+ /* LOGIN - PAGE                                    */
+ /*-------------------------------------------------*/
+
+.MDC-login-background {
+  background: url("../images/default/login-background.jpg") center / cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: brightness(20%);
+  filter: brightness(20%);
+}
+
+.MDC-login-box{
+  width: auto;
+  max-width: 400px;
+}
+
+.MDC-login-logo{
+  background-image: url("../images/default/logo.png");
+  background-size: 250px;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  display: inline-flex;
+  padding-bottom: 10px;
+}
+
+.MDC-login-form-size{
+  width: 350px;
+  position: relative;
+}
+
+.MDC-login-icon-position {
+  line-height: 1.4;
+}
+
+.MDC-login-button-position {
+  margin-top: 40px;
+}
+
+
+/*-------------------------------------------------*/
+/* HEADER - PAGE                                   */
+/*-------------------------------------------------*/
+
+.MDC-navbar-style {
+	width: 100%;
+ 	margin: 0;
+ 	padding: 0;
+ 	border: none;
+ 	z-index: 3;
+  height: 94px;
+  margin-bottom: 0px;
+ 	background-color: #262D35;
+ 	color: rgb(255,255,255);
+ 	-webkit-transition-duration: 0.2s;
+         	transition-duration: 0.2s;
+ 	-webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+         	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 	-webkit-transition-property: max-height, box-shadow;
+         	transition-property: max-height, box-shadow;
+}
+
+/* Container for the first row of the menu */
+.MDC-nav-top-container{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+@media only screen and (max-width: 992px){
+  .MDC-nav-top-container{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+/* Logo Position */
+.MDC-nav-logo-position{
+  padding-top: 12px !important;
+}
+
+/* Logo Size */
+.MDC-nav-logo-size{
+  width: 72px;
+  height: 72px;
+  position: absolute;
+}
+
+/* Search Position */
+.MDC-nav-search-position{
+  margin-top: 35px;
+  margin-left: 0px;
+  max-width: 950px;
+  width: 100%;
+  height: 45px;
+  background: #394450;
+  border-radius: 2px;
+  display: block;
+}
+
+@media only screen and (max-width: 992px){
+  .MDC-nav-search-position{
+    margin-top: 35px;
+    margin-left: 10px;
+    width: 90%;
+    height: 45px;
+    background: #394450;
+    border-radius: 2px;
+    float: center;
+  }
+}
+
+/* Position of the focus icons */
+.MDC-nav-search-focus{
+  border-radius: 2px !important;
+  line-height: 48px !important;
+}
+
+/* Account row position */
+.MDC-nav-account-position{
+  margin-top: 6px;
+  padding-left: 60px;
+  align-content: center;
+  position: absolute;
+  float: right;
+  right: 60px;
+}
+
+@media only screen and (max-width: 992px){
+  .MDC-nav-account-position{
+    margin-top: 6px;
+    padding-left: 60px;
+    align-content: center;
+    position: absolute;
+    float: right;
+    right: 30px;
+  }
+}
+
+/* Account expand icon position */
+.MDC-nav-account-option-position{
+  padding-top: 23px;
+  padding-left: 2px;
+  float: right;
+  margin-left: 10px !important;
+}
+
+.MDC-nav-account-text-position{
+  float: right;
+  margin-top: 31px;
+  margin-left: 10px;
+  line-height: 22px;
+}
+
+.mdc-nav-avatar-position{
+  margin-top: 31px;
+  float: right;
+}
+
+.MDC-nav-margin{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+/* Account dropdown */
+.MDC-nav-account-dropdown-position{
+  margin-top: 80px !important;
+  margin-left: 70px !important;
+  right: 0px !important;
+  width: 170px !important;
+}
+
+@media only screen and (max-width: 992px){
+  .MDC-nav-account-dropdown-position{
+    margin-top: 80px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    width: 170px !important;
+  }
+}
+
+/* Ammount of space of the menu nav */
+.MDC-navbar-menu-size{
+  height: 48px;
+}
+
+.MDC-nav-menu-container{
+  padding-left: 65px;
+  padding-right: 50px;
+}
+
+@media only screen and (max-width: 992px){
+  .MDC-nav-menu-container{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.MDC-nav-menu-ul{
+		line-height: 3.3;
+}
+
+/* Collapsible menu icon position */
+i.MDC-nav-tabs-icon {
+  font-size: 2rem !important;
+  font-weight: 200 !important;
+  height: 4px !important;
+  line-height: 45px !important;
+  margin-right: 15px;
+}
+
+.MDC-menu-fullWidth {
+	width: 100%;
+	background-color: #262D35;
+}
+
+.MDC-navbar-menu a {
+  color: #C4C7CB !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  font-feature-settings: 'kern';
+  font-family: "SanFrancisco","sans-serif";
+  letter-spacing: 0.15px;
+  line-height: 45px;
+  opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  overflow: visible !important;
+  transition: color .28s ease;
+  margin-right: 20px;
+  position: relative;
+	display: block;
+}
+
+.MDC-navbar-menu a:hover {
+  background-color: transparent !important;
+}
+
+.MDC-navbar-menu a.active {
+  color: white !important;
+}
+
+/* Navbar Indicator */
+nav ul li a.MDC-navbar-active {
+ border-bottom-width: 3px;
+ border-bottom-color: #2196F3;
+ border-bottom-style: solid;
+}
+
+.MDC-sidenav {
+    display: none;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #262D35;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.MDC-sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.MDC-sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.MDC-closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+/*-------------------------------------------------*/
+/* PROFILE - PAGE                                  */
+/*-------------------------------------------------*/
+
+.MDC-page-title-size{
+  height: 40px;
+  padding-top: 10px;
+}
+
+.MDC-profile-title-icon{
+  margin-top: -31px;
+  display: grid;
+  padding-left: 145px;
+}
+
+.MDC-profile-add-position{
+  margin-top: 0px;
+  margin-left: 145px;
+}
+
+@media only screen and (max-width: 1112px){
+  .MDC-profile-add-position{
+    margin-top: 0px;
+    margin-left: 118px;
+  }
+}
+
+.MDC-profile-info-container{
+  width: 190px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 992px){
+  .MDC-profile-info-container{
+    margin: inherit;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.MDC-profile-form-border-size {
+	width: 80% !important;
+}
+
+.MDC-profile-card-container{
+  height: 320px;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.MDC-profile-expand-icon-position{
+  margin-top: 13px;
+  margin-left: -5px;
+}
+
+.MDC-profile-title-space{
+  margin-left: 25px;
+  margin-top: -1px;
+}
+
+.MDC-profile-title-text-space{
+  margin-left: 45px;
+}
+
+/*-------------------------------------------------*/
+/* PAGE LAYOUT                                     */
+/*-------------------------------------------------*/
+
+.MDC-page-center{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Container for the first row of the menu */
+.MDC-page-container{
+  padding-left: 95px;
+  padding-right: 55px;
+}
+
+@media only screen and (max-width: 992px){
+  .MDC-page-container{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.MDC-page-margin-top{
+  margin-top: 40px;
+}
+
+
+/*-------------------------------------------------*/
+/* CARD LAYOUT                                     */
+/*-------------------------------------------------*/
+
+.MDC-card{
+	position: relative;
+  background-color: #fff;
+  transition: box-shadow .25s;
+	border-radius: 3px;
+  border-color: #fff !important;
+  border-style: solid !important;
+  border-width: 1px !important;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+/*-------------------------------------------------*/
+/* IMAGE - STYLE                                    */
+/*-------------------------------------------------*/
+
+.MDC-image-circle-large{
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+  border-width: 4px;
+  height: 190px;
+}
+
+@media only screen and (max-width: 1112px){
+  .MDC-image-circle-large{
+    height: 150px;
+  }
+}
+
+/*-------------------------------------------------*/
+/***             MDC POSITION - BEGIN            ***/
+/*-------------------------------------------------*/
+
+.MDC-absolute{
+  position: absolute !important;
+}
+
+.MDC-padding-0{
+  padding: 0 0 !important;
+}
+
+/*-------------------------------------------------*/
+/***             MDC Shadow - BEGIN              ***/
+/*-------------------------------------------------*/
+
+.MDC-shadow-default{
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+/*-------------------------------------------------*/
+/* TEXT STYLE                                      */
+/*-------------------------------------------------*/
+
+.MDC-h1-style{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-feature-settings: 'kern';
+  font-family: "SanFrancisco","sans-serif";
+  letter-spacing: 0.15px;
+  line-height: 20px;
+  opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  overflow: visible !important;
+  transition: color .28s ease;
+}
+
+.MDC-h2-style{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-feature-settings: 'kern';
+  font-family: "SanFrancisco","sans-serif";
+  letter-spacing: 0.15px;
+  line-height: 45px;
+  opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  text-transform: none;
+  text-overflow: ellipsis;
+  overflow: visible !important;
+  transition: color .28s ease;
+}
+
+/*-------------------------------------------------*/
+/* COLOR - STYLE                                   */
+/*-------------------------------------------------*/
+
+.MDC-color-grey{
+	color: #9c9c9c;
+}
+
+.MDC-color-grey-light{
+  color: #d8d8d8 !important;
+}
+
+.MDC-color-grey-light-2{
+	color: #b5b5b5;
+}
+
+.MDC-border-grey-light{
+  border-bottom-color: #d8d8d8 !important;
+}
+
+.MDC-border-grey-light:focus{
+  border-bottom: 1px solid #2196F3 !important;
+}
+
+.MDC-border-grey-light:focus + label{
+  color: #2196F3 !important;
+}
+
+/*-------------------------------------------------*/
+/* FONT - STYLE                                    */
+/*-------------------------------------------------*/
+
+
+
+@font-face {
+  font-family: "SanFrancisco Ultralight";
+  src: local(SanFrancisco Ultralight),
+       url("../fonts/YosemiteSanFranciscoFont/System-San-Francisco-Display-Ultralight.ttf") format("truetype");
+  font-weight: 100;
+}
+
+
+
+@font-face {
+  font-family: "SanFrancisco Thin";
+  src: local(SanFrancisco thin),
+       url("../fonts/YosemiteSanFranciscoFont/System-San-Francisco-Display-Thin.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "SanFrancisco";
+  src: local(SanFrancisco Regular),
+       url("../fonts/YosemiteSanFranciscoFont/System-San-Francisco-Display-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SanFrancisco";
+  src: local(SanFrancisco Medium),
+       url("../fonts/YosemiteSanFranciscoFont/System-San-Francisco-Display-Regular.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "SanFrancisco";
+  src: local(SanFrancisco Bold),
+       url("../fonts/YosemiteSanFranciscoFont/System-San-Francisco-Display-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
