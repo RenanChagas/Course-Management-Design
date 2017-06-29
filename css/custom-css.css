@@ -71,15 +71,15 @@ box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.20) !important;
    color: #fff;
    display: inline;
    font-feature-settings: 'kern';
-   font-family: "SanFrancisco","sans-serif";
+   font-family: "Roboto","sans-serif";
  }
 
 .MDC-h5-style{
   font-size: 22px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-feature-settings: 'kern';
-  font-family: "SanFrancisco","sans-serif";
+  font-family: "Roboto","sans-serif";
   letter-spacing: 0.5px;
   line-height: 40px;
   opacity: 1;
@@ -94,9 +94,9 @@ box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.20) !important;
 .MDC-h7-style{
   font-size: 20px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-feature-settings: 'kern';
-  font-family: "SanFrancisco","sans-serif";
+  font-family: "Roboto","sans-serif";
   letter-spacing: 0.5px;
   line-height: 40px;
   opacity: 1;
@@ -153,7 +153,7 @@ box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.20) !important;
   -webkit-font-smoothing: antialiased;
   font-style: normal;
   font-feature-settings: 'kern';
-  font-family: "SanFrancisco","sans-serif";
+  font-family: "Roboto","sans-serif";
 }
 
 .mdc-dropdown-style li > a > i {
@@ -400,7 +400,7 @@ i.MDC-nav-tabs-icon {
   font-style: normal;
   font-weight: bold;
   font-feature-settings: 'kern';
-  font-family: "SanFrancisco","sans-serif";
+  font-family: "Roboto","sans-serif";
   letter-spacing: 0.15px;
   line-height: 45px;
   opacity: 1;
@@ -630,7 +630,7 @@ nav ul li a.MDC-navbar-active {
   font-style: normal;
   font-weight: 500;
   font-feature-settings: 'kern';
-  font-family: "SanFrancisco","sans-serif";
+  font-family: "Roboto","sans-serif";
   letter-spacing: 0.15px;
   line-height: 20px;
   opacity: 1;
@@ -646,7 +646,7 @@ nav ul li a.MDC-navbar-active {
   font-style: normal;
   font-weight: 500;
   font-feature-settings: 'kern';
-  font-family: "SanFrancisco","sans-serif";
+  font-family: "Roboto","sans-serif";
   letter-spacing: 0.15px;
   line-height: 45px;
   opacity: 1;
