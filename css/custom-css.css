@@ -531,6 +531,14 @@ nav ul li a.MDC-navbar-active {
   margin-left: 45px;
 }
 
+.MDC-profile-title-space-noIcon{
+  margin-left: 20px;
+}
+
+.MDC-profile-title-space-position{
+  margin-top: -1px;
+}
+
 /*-------------------------------------------------*/
 /* PAGE LAYOUT                                     */
 /*-------------------------------------------------*/
@@ -543,8 +551,8 @@ nav ul li a.MDC-navbar-active {
 
 /* Container for the first row of the menu */
 .MDC-page-container{
-  padding-left: 95px;
-  padding-right: 55px;
+  padding-left: 95px !important;
+  padding-right: 65px !important;
 }
 
 @media only screen and (max-width: 992px){
@@ -568,11 +576,11 @@ nav ul li a.MDC-navbar-active {
   background-color: #fff;
   transition: box-shadow .25s;
 	border-radius: 3px;
-  border-color: #fff !important;
+  border-color: #e6e6e6 !important;
   border-style: solid !important;
   border-width: 1px !important;
   margin-bottom: 15px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  box-shadow: 0;
 }
 
 /*-------------------------------------------------*/
@@ -618,7 +626,7 @@ nav ul li a.MDC-navbar-active {
 /*-------------------------------------------------*/
 
 .MDC-h1-style{
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
   font-feature-settings: 'kern';
@@ -647,6 +655,18 @@ nav ul li a.MDC-navbar-active {
   text-overflow: ellipsis;
   overflow: visible !important;
   transition: color .28s ease;
+}
+
+/*-------------------------------------------------*/
+/* CATEGORY - PAGE                                 */
+/*-------------------------------------------------*/
+
+.MDC-category-card-container{
+  height: 420px;
+  width: 260px;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 /*-------------------------------------------------*/
@@ -680,8 +700,6 @@ nav ul li a.MDC-navbar-active {
 /*-------------------------------------------------*/
 /* FONT - STYLE                                    */
 /*-------------------------------------------------*/
-
-
 
 @font-face {
   font-family: "SanFrancisco Ultralight";

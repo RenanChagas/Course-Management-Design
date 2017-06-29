@@ -92,9 +92,9 @@
                         menu
                       </i>
                     </a>
-                    <li class="MDC-navbar-menu"><a class="active MDC-navbar-active" href="#!">My Courses</a></li>
+                    <li class="MDC-navbar-menu"><a href="#!">My Courses</a></li>
                     <li class="MDC-navbar-menu"><a href="#!">Manage Team</a></li>
-                    <li class="MDC-navbar-menu"><a href="#!">Find Courses</a></li>
+                    <li class="MDC-navbar-menu"><a class="active MDC-navbar-active" href="#!">Find Courses</a></li>
                     <li class="MDC-navbar-menu"><a href="#!">News</a></li>
                   </ul>
                   <div id="mySidenav" class="MDC-sidenav">
@@ -116,80 +116,42 @@
   </div>
   <!-- NAV MENU - END -->
 
-  <!-- PROFILE TITLE-->
-  <div class="MDC-page-center MDC-page-container">
-    <div class="MDC-page-title-size">
-      <font class="MDC-h5-style MDC-color-grey-dark-2">Manage</font>
-      <i class="material-icons MDC-icon-small MDC-color-grey-dark-2 MDC-profile-expand-icon-position
-                MDC-absolute">expand_more</i>
-      <font class="MDC-h5-style MDC-color-grey-light-2 MDC-profile-title-space
-                  MDC-absolute">/</font>
-      <font class="MDC-h5-style MDC-color-blue MDC-profile-title-text-space">Your Profile</font>
+  <!-- TITLE PAGE -->
+  <div class="row  MDC-page-center MDC-page-container">
+
+    <div class="col MDC-padding-0 left">
+      <div class="MDC-page-title-size">
+        <font class="MDC-h5-style MDC-color-grey-dark-2">Explore</font>
+        <font class="MDC-h5-style MDC-color-grey-light-2 MDC-absolute MDC-profile-title-space-position">/</font>
+        <font class="MDC-h5-style MDC-color-grey-dark-2 MDC-profile-title-space-noIcon">Programming</font>
+        <i class="material-icons MDC-icon-small MDC-color-grey-dark-2 MDC-profile-expand-icon-position
+                  MDC-absolute">expand_more</i>
+        <font class="MDC-h5-style MDC-color-grey-light-2 MDC-profile-title-space
+                    MDC-absolute">/</font>
+        <font class="MDC-h5-style MDC-color-blue MDC-profile-title-text-space">Java</font>
+      </div>
     </div>
+
+    <div class="col MDC-padding-0 right">
+      sort
+    </div>
+
   </div>
+
 
   <div class="MDC-page-center MDC-page-container">
     <div class="row MDC-page-margin-top">
 
-      <!-- AVATAR LEFT -->
-      <div class="col s12 m5 l3 MDC-padding-0">
-        <a id="edit-avatar" class="btn-floating btn waves-effect MDC-absolute
-                                  MDC-profile-add-position right">
-          <i class="material-icons">add</i>
-        </a>
-        <img src="images/temp/man-profile-circle-3.png"
-             class="MDC-image-circle-large MDC-shadow-default"/>
-        <!-- AVATAR INFORMATION -->
-        <div class="MDC-profile-info-container">
-          <div class="MDC-h1-style MDC-color-grey-dark center">
-            Renan Chagas
+      <!-- CATEGORY LEFT -->
+      <div class="col MDC-padding-0">
+          <div class="MDC-card MDC-category-card-container MDC-absolute">
+
           </div>
-          <div class="MDC-h2-style MDC-color-grey center">
-            Engineer
-          </div>
-        </div>
       </div>
 
       <!-- FORM - BEGIN -->
-      <div class="col s12 m12 l9 MDC-padding-0">
-        <div class="MDC-card MDC-profile-card-container">
-          <form id="profile-form" method="POST" modelAttribute="user" class="form-horizontal">
-            <!-- FIRST NAME -->
-            <div class="input-field col s12 m6 l6">
-              <input value="" id="firstName" type="text" path="firstName" length="15"
-                class="MDC-border-grey-light MDC-profile-form-border-size"/>
-              <label for="firstName">First Name</label>
-            </div>
-            <!-- LAST NAME -->
-            <div class="input-field col s12 m6 l6">
-              <input value="" id="lastName" type="text" path="lastName" length="25"
-                class="MDC-border-grey-light MDC-profile-form-border-size"/>
-              <label for="lastName">Last Name</label>
-            </div>
-            <!-- EMAIL -->
-            <div class="input-field col s12 m6 l6">
-              <input value="" id="email" type="email" path="email"
-                class="MDC-border-grey-light MDC-profile-form-border-size"/>
-              <label for="email">Email</label>
-            </div>
-            <!-- USERNAME -->
-            <div class="input-field col s12 m6 l6">
-              <input value="" id="username" type="text" path="username"
-                class="MDC-border-grey-light MDC-profile-form-border-size"/>
-              <label for="username">Username</label>
-            </div>
-            <!-- JOB DESCRIPTION -->
-            <div class="input-field col s12 m6 l6">
-              <input value="" id="jobDesc" type="text" path="jobDesc"
-                class="MDC-border-grey-light MDC-profile-form-border-size"/>
-              <label for="jobDesc">Job Description</label>
-            </div>
-          </form>
-        </div>
-        <button id="salvar" type="submit" class="btn waves-effect waves-light
-        blue MDC-form-text right" name="action">
-          Salvar
-        </button>
+      <div class="col s12 m12 l10">
+
       </div>
       <!-- FORM - END -->
 
