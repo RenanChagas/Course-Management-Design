@@ -677,10 +677,10 @@ nav ul li a.MDC-navbar-active {
   margin-bottom: 5px;
 }
 
-.MDC-category-menu-font a {
-  font-size: 14px;
+.MDC-category-menu-title {
+  font-size: 19px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-feature-settings: 'kern';
   font-family: "Roboto","sans-serif";
   letter-spacing: 0.15px;
@@ -688,7 +688,25 @@ nav ul li a.MDC-navbar-active {
   opacity: 1;
   -webkit-font-smoothing: antialiased;
   display: inline;
-  text-transform: uppercase;
+  text-transform: none;
+  text-overflow: ellipsis;
+  overflow: visible !important;
+  margin-right: 20px;
+  position: relative;
+	display: block;
+}
+
+.MDC-category-menu-font a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-feature-settings: 'kern';
+  font-family: "Roboto","sans-serif";
+  letter-spacing: 0.15px;
+  line-height: 45px;
+  opacity: 1;
+  display: inline;
+  text-transform: none;
   text-overflow: ellipsis;
   overflow: visible !important;
   margin-right: 20px;
