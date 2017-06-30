@@ -576,7 +576,7 @@ nav ul li a.MDC-navbar-active {
   background-color: #fff;
   transition: box-shadow .25s;
 	border-radius: 3px;
-  border-color: #e6e6e6 !important;
+  border-color: #c1c1c1 !important;
   border-style: solid !important;
   border-width: 1px !important;
   margin-bottom: 15px;
@@ -658,15 +658,65 @@ nav ul li a.MDC-navbar-active {
 }
 
 /*-------------------------------------------------*/
-/* CATEGORY - PAGE                                 */
+/* FIND COURSES - PAGE                                 */
 /*-------------------------------------------------*/
 
 .MDC-category-card-container{
-  height: 420px;
+  height: auto;
   width: 260px;
-  padding-top: 25px;
+}
+
+.MDC-menu-ul-position{
+  margin-top: -10px;
+  margin-left: 25px;
+}
+
+.MDC-menu-li-position{
+  margin-top: 7px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+
+.MDC-category-menu-font a {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  font-feature-settings: 'kern';
+  font-family: "Roboto","sans-serif";
+  letter-spacing: 0.15px;
+  line-height: 45px;
+  opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  overflow: visible !important;
+  margin-right: 20px;
+  position: relative;
+	display: block;
+}
+
+.MDC-category-menu-font a:hover {
+  background-color: transparent !important;
+}
+
+.MDC-category-menu-font a.active {
+  color: white !important;
+}
+
+.MDC-category-expand-icon-position{
+  margin-top: 13px;
+  margin-left: 10px;
+}
+
+.MDC-card-container{
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.MDC-page-title-container{
+  height: 40px;
+  padding-top: 20px;
 }
 
 /*-------------------------------------------------*/
