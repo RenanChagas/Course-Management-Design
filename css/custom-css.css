@@ -109,17 +109,7 @@ box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.20) !important;
 }
 
 
-.MDC-color-grey-dark {
-	color: #262e36 !important;
-}
 
-.MDC-color-grey-dark-2{
-  color: #3a424a !important
-}
-
-.MDC-color-blue{
-  color: #2196F3 !important;
-}
 
 /* Dropdown */
 .MDC-dropdown-style {
@@ -143,7 +133,6 @@ box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.20) !important;
 }
 
 .mdc-dropdown-style  li > a, .dropdown-content li > span {
-  color: #2D2D2D !important;
   display: block;
   font-weight: 500 !important;
   font-size: 15px;
@@ -317,7 +306,7 @@ box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.20) !important;
 
 /* Account expand icon position */
 .MDC-nav-account-option-position{
-  padding-top: 23px;
+  padding-top: 22px;
   padding-left: 2px;
   float: right;
   margin-left: 10px !important;
@@ -566,7 +555,24 @@ nav ul li a.MDC-navbar-active {
   margin-top: 40px;
 }
 
+.MDC-profile-expand-icon-position-2{
+  margin-top: -27.5px;
+  margin-left: 370px;
+}
 
+.MDC-page-expand-icon-position-sort{
+  margin-top: -19px;
+  margin-left: 105px;
+}
+
+.MDC-page-sort-font-position{
+  margin-right: 5px;
+}
+
+.MDC-card-container-sort{
+  padding-left: 10px;
+  padding-right: 26px;
+}
 /*-------------------------------------------------*/
 /* CARD LAYOUT                                     */
 /*-------------------------------------------------*/
@@ -576,11 +582,11 @@ nav ul li a.MDC-navbar-active {
   background-color: #fff;
   transition: box-shadow .25s;
 	border-radius: 3px;
-  border-color: #c1c1c1 !important;
+  border-color: #fff !important;
   border-style: solid !important;
   border-width: 1px !important;
   margin-bottom: 15px;
-  box-shadow: 0;
+  box-shadow: 0 1px 4px rgba(1, 0, 0, 0.08);
 }
 
 /*-------------------------------------------------*/
@@ -737,6 +743,24 @@ nav ul li a.MDC-navbar-active {
   padding-top: 20px;
 }
 
+.MDC-course-card-size{
+  width: 250px;
+  height: 350px;
+  position: relative;
+}
+
+
+.MDC-category-floatbtn-position{
+  margin-top: -20px;
+  margin-left: 230px;
+}
+@media only screen and (max-width: 1112px){
+  .MDC-category-floatbtn-position{
+    margin-top: -20px;
+    margin-left: 230px;
+  }
+}
+
 /*-------------------------------------------------*/
 /* COLOR - STYLE                                   */
 /*-------------------------------------------------*/
@@ -765,9 +789,133 @@ nav ul li a.MDC-navbar-active {
   color: #2196F3 !important;
 }
 
+.MDC-background-black-light{
+  background-color: #262d35 !important;
+}
+
+.MDC-color-grey-dark {
+	color: #262e36 !important;
+}
+
+.MDC-color-grey-dark-2{
+  color: #3a424a !important
+}
+
+.MDC-color-blue{
+  color: #2196F3 !important;
+}
+
+.MDC-background-blue{
+  background-color: #2196F3 !important;
+}
+
+/*-------------------------------------------------*/
+/* IMAGE - STYLE                                    */
+/*-------------------------------------------------*/
+
+.MDC-avatar-circle-large{
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+  border-width: 4px;
+  height: 190px;
+  width: 190px;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 1112px){
+  .MDC-avatar-circle-large{
+    height: 150px;
+    width: 150px;
+  }
+}
+
+/*-------------------------------------------------*/
+/* PADDING & MARGIN - BEGIN    	                   */
+/*-------------------------------------------------*/
+
+@media only screen and (max-width: 600px){
+  .mdc-padding-mobile-0{
+    padding: 0 0px !important;
+  }
+}
+
+.MDC-margin-top-20{
+	margin-top: 20px;
+}
+
+.MDC-margin-bottom-10{
+  margin-bottom: -10px;
+}
+
+.MDC-margin-top10{
+  margin-top: 10px;
+}
+
+.MDC-width-80perc{
+  width: 80%;
+}
+
+.MDC-margin-right40{
+  margin-right: 40px;
+}
+
+/*-------------------------------------------------*/
+/* GENERAL - STYLE                                 */
+/*-------------------------------------------------*/
+
+.MDC-font-course-title{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-feature-settings: 'kern';
+  font-family: "Roboto","sans-serif";
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  overflow: visible !important;
+  transition: color .28s ease;
+  display: inline;
+}
+
+.MDC-font-course-info{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-feature-settings: 'kern';
+  font-family: "Roboto","sans-serif";
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  overflow: visible !important;
+  transition: color .28s ease;
+  display: inline;
+}
+
+.MDC-uppercase-none{
+  text-transform: none !important;
+}
+
+.MDC-divider {
+  height: 1px;
+  overflow: hidden;
+  background-color: #cecfd0;
+  margin: 0 auto;
+}
+
 /*-------------------------------------------------*/
 /* FONT - STYLE                                    */
 /*-------------------------------------------------*/
+
+.MDC-font-15{
+  font-size: 15px !important;
+}
 
 @font-face {
   font-family: "SanFrancisco Ultralight";

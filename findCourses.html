@@ -59,12 +59,11 @@
                <img src="images/temp/man-profile-circle-3.png" class="MDC-avatar-circle-small mdc-nav-avatar-position"/>
             </a>
             <!-- Dropdown Structure -->
-            <ul id='account-dropdown' class='dropdown-content MDC-nav-account-dropdown-position
-                                             mdc-dropdown-style'>
-              <li><a id="profile" class="modal-trigger" href="profile">Profile</a></li>
-              <li><a href="#!">Report a Problem</a></li>
+            <ul id='account-dropdown' class='dropdown-content MDC-nav-account-dropdown-position'>
+              <li><a id="profile" class="modal-trigger MDC-color-grey-dark-2 MDC-font-15" href="profile">Profile</a></li>
+              <li><a class="MDC-color-grey-dark-2 MDC-font-15" href="#!">Report a Problem</a></li>
               <li class="divider"></li>
-              <li><a href="logout">Logout</a></li>
+              <li><a class="MDC-color-grey-dark-2 MDC-font-15" href="logout">Logout</a></li>
             </ul>
           </div>
         </div>
@@ -122,20 +121,35 @@
     <div class="col MDC-padding-0 left">
       <div class="MDC-page-title-size">
         <font class="MDC-h5-style MDC-color-grey-dark-2">Explore</font>
-        <font class="MDC-h5-style MDC-color-grey-light-2 MDC-absolute MDC-profile-title-space-position">/</font>
-        <font class="MDC-h5-style MDC-color-grey-dark-2 MDC-profile-title-space-noIcon">Programming</font>
-        <i class="material-icons MDC-icon-small MDC-color-grey-dark-2 MDC-profile-expand-icon-position
-                  MDC-absolute">expand_more</i>
+        <font class="MDC-h5-style MDC-color-grey-light-2 MDC-absolute
+                    MDC-profile-title-space-position">/</font>
+        <font class="MDC-h5-style MDC-color-grey-dark-2
+                    MDC-profile-title-space-noIcon">Programming</font>
+        <i class="material-icons MDC-icon-small MDC-color-grey-dark-2
+                    MDC-profile-expand-icon-position MDC-absolute">expand_more</i>
         <font class="MDC-h5-style MDC-color-grey-light-2 MDC-profile-title-space
                     MDC-absolute">/</font>
-        <font class="MDC-h5-style MDC-color-blue MDC-profile-title-text-space">Java</font>
+        <font class="MDC-h5-style MDC-color-blue MDC-profile-title-text-space">
+          Java
+        </font>
+        <i class="material-icons MDC-icon-small MDC-color-blue
+                  MDC-profile-expand-icon-position-2
+                  MDC-absolute">expand_more</i>
       </div>
     </div>
 
     <div class="col MDC-padding-0 right">
       <div class="MDC-page-title-container">
-        <div class="MDC-card MDC-card-container">
-          <font class="MDC-category-menu-font MDC-color-grey-dark-2">Sort by:</font>
+        <div class="MDC-card MDC-card-container-sort">
+          <font class="MDC-color-grey-dark-2
+                      MDC-page-sort-font-position">
+            Sort by:
+          </font>
+          <font class="MDC-color-grey">Latest</font>
+          <i class="material-icons MDC-icon-small MDC-color-grey
+                    MDC-page-expand-icon-position-sort MDC-absolute">
+                    expand_more
+          </i>
         </div>
       </div>
     </div>
@@ -145,48 +159,108 @@
 
   <div class="MDC-page-center MDC-page-container">
     <div class="row MDC-page-margin-top">
+      <!-- Courses -->
+      <div class="col MDC-padding-0 MDC-margin-right40">
+        <div class="MDC-card MDC-course-card-size">
+          <!-- float btn -->
+          <a href="#"  onClick="removeTeam(${team.id})"
+            class="btn-floating btn waves-effect  MDC-absolute  right
+                  MDC-background-blue  MDC-category-floatbtn-position">
+            <i class="material-icons">add</i>
+          </a>
 
-      <!-- CATEGORY LEFT -->
-      <div class="col MDC-padding-0">
-          <div class="MDC-card MDC-category-card-container MDC-absolute">
+          <!-- Image -->
+          <a href="#">
+            <div class="row center MDC-margin-top-20">
+              <img src="images/temp/course-java-3.jpg"
+                class="MDC-avatar-circle-large MDC-shadow-default"/>
+            </div>
+          </a>
 
-            <ul id='category_menu' class="">
-              <li class="MDC-category-menu-title MDC-menu-ul-position">
-                <a class="MDC-color-blue" href="#!">Categories</a>
-              </li>
-              <li class="divider"></li>
-              <li class="MDC-category-menu-font MDC-menu-li-position">
-                <a class="MDC-color-grey" href="#!">Programming languages
-                  <i class="material-icons MDC-icon-small MDC-color-grey
-                            MDC-category-expand-icon-position MDC-absolute">expand_more</i>
-                </a>
-              </li>
-              <li class="MDC-category-menu-font MDC-menu-li-position">
-                <a class="MDC-color-grey" href="#!">Ethics
-                  <i class="material-icons MDC-icon-small MDC-color-grey
-                            MDC-category-expand-icon-position MDC-absolute">expand_more</i>
-                </a>
-              </li>
-              <li class="MDC-category-menu-font MDC-menu-li-position">
-                <a class="MDC-color-grey" href="#!">Mathematics</a>
-              </li>
-              <li class="MDC-category-menu-font MDC-menu-li-position">
-                <a class="MDC-color-grey" href="#!">Cryptography</a>
-              </li>
-              <li class="MDC-category-menu-font MDC-menu-li-position">
-                <a class="MDC-color-grey" href="#!">Insurance</a>
-              </li>
-            </ul>
-
+          <!-- Title -->
+          <div class="row center MDC-margin-bottom-10">
+            <font class="truncate MDC-font-course-title MDC-color-grey-dark-2">
+                Java Web
+              </font>
           </div>
+
+          <!-- Time Course -->
+          <div class="row center MDC-margin-bottom-10">
+            <font class="truncate MDC-font-course-title MDC-uppercase-none
+                        MDC-color-grey">
+              7 Hours
+            </font>
+          </div>
+
+          <!-- Member Course -->
+          <div class="row MDC-margin-top10 MDC-width-80perc">
+            <div class="MDC-divider"></div>
+            <font class="truncate MDC-font-course-title MDC-uppercase-none
+                        MDC-color-grey-dark-2">
+                Users:
+            </font>
+            <font class="MDC-color-grey">28 Members</font>
+          </div>
+        <!-- CARD END -->
+        </div>
       </div>
+      <!-- Courses END -->
 
-      <!-- FORM - BEGIN -->
-      <div class="col s12 m12 l10">
+      <!-- Courses -->
+      <div class="col MDC-padding-0">
+        <div class="MDC-card MDC-course-card-size">
 
+          <a href="#"  onClick="removeTeam(${team.id})"
+            class="btn-floating btn waves-effect  MDC-absolute  right
+                  MDC-background-blue  MDC-category-floatbtn-position">
+            <i class="material-icons">add</i>
+          </a>
+
+          <!-- Image -->
+          <a href="#">
+            <div class="row center MDC-margin-top-20">
+              <img src="images/temp/course-c-2.png"
+                class="MDC-avatar-circle-large MDC-shadow-default"/>
+            </div>
+          </a>
+
+          <!-- Title -->
+          <div class="row center MDC-margin-bottom-10">
+            <font class="truncate MDC-font-course-title MDC-color-grey-dark-2">
+                C# for beginners
+              </font>
+          </div>
+
+          <!-- Time Course -->
+          <div class="row center MDC-margin-bottom-10">
+            <font class="truncate MDC-font-course-title MDC-uppercase-none
+                        MDC-color-grey">
+              15 Hours
+            </font>
+          </div>
+
+          <!-- Member Course -->
+          <div class="row MDC-margin-top10 MDC-width-80perc">
+            <div class="MDC-divider"></div>
+            <font class="truncate MDC-font-course-title MDC-uppercase-none
+                        MDC-color-grey-dark-2">
+                Users:
+            </font>
+            <font class="MDC-color-grey">11 Members</font>
+          </div>
+        <!-- CARD END -->
+        </div>
       </div>
-      <!-- FORM - END -->
+      <!-- Courses END -->
+    </div>
+  </div>
 
+  <div class="MDC-page-center MDC-page-container">
+    <div class="row MDC-page-margin-top center">
+      <button id="salvar" type="submit" class="btn waves-effect waves-light
+      blue MDC-form-text center" name="action">
+        View More
+      </button>
     </div>
   </div>
 
