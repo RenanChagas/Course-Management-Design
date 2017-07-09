@@ -582,7 +582,7 @@ nav ul li a.MDC-navbar-active {
   background-color: #fff;
   transition: box-shadow .25s;
 	border-radius: 3px;
-  border-color: #fff !important;
+  border-color: #E9E9EB !important;
   border-style: solid !important;
   border-width: 1px !important;
   margin-bottom: 15px;
@@ -617,6 +617,27 @@ nav ul li a.MDC-navbar-active {
 
 .MDC-padding-0{
   padding: 0 0 !important;
+}
+
+.MDC-margin-bottom2{
+  margin-bottom: 2px !important;
+}
+
+.MDC-margin-bottom8{
+  margin-bottom: 8px !important;
+}
+
+.MDC-margin-5{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.MDC-margin-top10{
+  margin-top: 10px;
+}
+
+.MDC-margin-top-20{
+  margin-top: -20px !important;
 }
 
 /*-------------------------------------------------*/
@@ -777,6 +798,10 @@ nav ul li a.MDC-navbar-active {
 	color: #b5b5b5;
 }
 
+.MDC-background-grey-light{
+    background-color: #b5b5b5 !important;
+}
+
 .MDC-border-grey-light{
   border-bottom-color: #d8d8d8 !important;
 }
@@ -909,12 +934,82 @@ nav ul li a.MDC-navbar-active {
   margin: 0 auto;
 }
 
+.MDC-display-inline{
+  display: inline;
+}
+
+.MDC-relative{
+  position: relative;
+}
+
+/*-------------------------------------------------*/
+/* NEWS - PAGE                                    */
+/*-------------------------------------------------*/
+
+.MDC-news-expand-icon-position{
+  top: 5px;
+  margin-left: -5px;
+}
+
+.MDC-news-counterBar-position{
+  top: -1px;
+  margin-right: 8px
+}
+
+.MDC-news-card-size{
+  width: 100%;
+  height: 280px;
+  position: relative;
+}
+
+.MDC-card-news-container{
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.MDC-card-news-user-row{
+  background-color: none;
+  height: 25px;
+  width: 100%;
+}
+
+.MDC-card-news-description-row{
+  background-color: none;
+  height: 145px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.MDC-card-container-news{
+  padding-left: 10px;
+  padding-right: 10px;
+  display: -webkit-inline-box;
+}
+
 /*-------------------------------------------------*/
 /* FONT - STYLE                                    */
 /*-------------------------------------------------*/
 
+.MDC-font-26{
+  font-size: 26px !important;
+}
+
+.MDC-font-bold{
+  font-weight: bold;
+}
+
 .MDC-font-15{
   font-size: 15px !important;
+}
+
+.MDC-font-16{
+  font-size: 18px !important;
+}
+
+.MDC-font-12{
+  font-size: 12px !important;
 }
 
 @font-face {
