@@ -627,6 +627,10 @@ nav ul li a.MDC-navbar-active {
   margin-bottom: 8px !important;
 }
 
+.MDC-padding-bottom15{
+  padding-bottom: 15px !important;
+}
+
 .MDC-margin-5{
   margin-left: 10px;
   margin-right: 10px;
@@ -640,6 +644,9 @@ nav ul li a.MDC-navbar-active {
   margin-top: -20px !important;
 }
 
+.MDC-top15{
+  top: 15px;
+}
 /*-------------------------------------------------*/
 /***             MDC Shadow - BEGIN              ***/
 /*-------------------------------------------------*/
@@ -799,7 +806,7 @@ nav ul li a.MDC-navbar-active {
 }
 
 .MDC-background-grey-light{
-    background-color: #b5b5b5 !important;
+    background-color: #d8d8d8 !important;
 }
 
 .MDC-border-grey-light{
@@ -943,7 +950,7 @@ nav ul li a.MDC-navbar-active {
 }
 
 /*-------------------------------------------------*/
-/* NEWS - PAGE                                    */
+/* NEWS - PAGE                                     */
 /*-------------------------------------------------*/
 
 .MDC-news-expand-icon-position{
@@ -989,11 +996,45 @@ nav ul li a.MDC-navbar-active {
 }
 
 /*-------------------------------------------------*/
+/* DASHBOARD - PAGE                                */
+/*-------------------------------------------------*/
+
+.MDC-dashboard-card-size{
+  width: 100%;
+  height: 170px;
+  position: relative;
+}
+
+.MDC-dashboardGraphics-card-size{
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+
+.MDC-progressBar-50{
+  width: 50% !important;
+}
+
+.MDC-margin-0{
+  margin: 0 auto !important;
+}
+
+
+
+/*-------------------------------------------------*/
 /* FONT - STYLE                                    */
 /*-------------------------------------------------*/
 
 .MDC-font-26{
   font-size: 26px !important;
+}
+
+.MDC-font-22{
+  font-size: 22px !important;
+}
+
+.MDC-font-60{
+  font-size: 40px !important;
 }
 
 .MDC-font-bold{
