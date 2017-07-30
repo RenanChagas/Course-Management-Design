@@ -3544,7 +3544,7 @@ if (jQuery) {
       // Wrap Elements
       $select.wrap(wrapper);
       // Add Select Display Element
-      var dropdownIcon = $('<span class="caret">&#9660;</span>');
+      var dropdownIcon = $('<span class="caret"><i class="material-icons MDC-icon-small MDC-color-grey-dark">expand_more</i></span>');
       if ($select.is(':disabled'))
         dropdownIcon.addClass('disabled');
 

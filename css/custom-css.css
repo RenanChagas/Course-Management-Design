@@ -499,6 +499,10 @@ nav ul li a.MDC-navbar-active {
 	width: 80% !important;
 }
 
+.MDC-category-form-border-size {
+	width: 200px !important;
+}
+
 .MDC-profile-card-container{
   height: 320px;
   padding-top: 25px;
@@ -647,6 +651,7 @@ nav ul li a.MDC-navbar-active {
 .MDC-margin-top10{
   margin-top: 10px;
 }
+
 
 .MDC-margin-top-20{
   margin-top: -20px !important;
@@ -995,6 +1000,11 @@ nav ul li a.MDC-navbar-active {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 15px;
+}
+
+.MDC-card-news-container-leftRight{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .MDC-card-news-user-row{
