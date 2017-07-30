@@ -573,6 +573,10 @@ nav ul li a.MDC-navbar-active {
   padding-left: 10px;
   padding-right: 26px;
 }
+
+.MDC-float-none{
+  float: none !important
+}
 /*-------------------------------------------------*/
 /* CARD LAYOUT                                     */
 /*-------------------------------------------------*/
@@ -621,6 +625,10 @@ nav ul li a.MDC-navbar-active {
 
 .MDC-margin-bottom2{
   margin-bottom: 2px !important;
+}
+
+.MDC-margin-bottom40{
+  margin-bottom: 40px !important;
 }
 
 .MDC-margin-bottom8{
@@ -841,6 +849,10 @@ nav ul li a.MDC-navbar-active {
   background-color: #2196F3 !important;
 }
 
+.MDC-color-black{
+  color: #000 !important;
+}
+
 /*-------------------------------------------------*/
 /* IMAGE - STYLE                                    */
 /*-------------------------------------------------*/
@@ -890,6 +902,10 @@ nav ul li a.MDC-navbar-active {
 
 .MDC-margin-right40{
   margin-right: 40px;
+}
+
+.MDC-margin-right50{
+  margin-right: 50px;
 }
 
 /*-------------------------------------------------*/
@@ -958,6 +974,11 @@ nav ul li a.MDC-navbar-active {
   margin-left: -5px;
 }
 
+.MDC-news-navigateBefore-icon-position{
+  top: 3px;
+  margin-left: -5px;
+}
+
 .MDC-news-counterBar-position{
   top: -1px;
   margin-right: 8px
@@ -995,6 +1016,15 @@ nav ul li a.MDC-navbar-active {
   display: -webkit-inline-box;
 }
 
+.MDC-General-floatbtn-position{
+  margin-top: -29px;
+}
+@media only screen and (max-width: 1112px){
+  .MDC-General-floatbtn-position{
+    margin-top: -29px;
+  }
+}
+
 /*-------------------------------------------------*/
 /* DASHBOARD - PAGE                                */
 /*-------------------------------------------------*/
@@ -1025,12 +1055,20 @@ nav ul li a.MDC-navbar-active {
 /* FONT - STYLE                                    */
 /*-------------------------------------------------*/
 
+.MDC-font-weight-300{
+  font-weight: 300;
+}
+
 .MDC-font-26{
   font-size: 26px !important;
 }
 
 .MDC-font-22{
   font-size: 22px !important;
+}
+
+.MDC-font-40{
+  font-size: 40px !important;
 }
 
 .MDC-font-60{
@@ -1043,6 +1081,10 @@ nav ul li a.MDC-navbar-active {
 
 .MDC-font-15{
   font-size: 15px !important;
+}
+
+.MDC-font-18{
+  font-size: 18px !important;
 }
 
 .MDC-font-16{
