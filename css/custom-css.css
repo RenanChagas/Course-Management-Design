@@ -627,6 +627,10 @@ nav ul li a.MDC-navbar-active {
   padding: 0 0 !important;
 }
 
+.MDC-margin-bottom0{
+  margin-bottom: 0px !important;
+}
+
 .MDC-margin-bottom2{
   margin-bottom: 2px !important;
 }
@@ -648,8 +652,8 @@ nav ul li a.MDC-navbar-active {
   margin-right: 10px;
 }
 
-.MDC-margin-top10{
-  margin-top: 10px;
+.MDC-margin-top12{
+  margin-top: 12px;
 }
 
 
@@ -806,6 +810,10 @@ nav ul li a.MDC-navbar-active {
 /* COLOR - STYLE                                   */
 /*-------------------------------------------------*/
 
+.MDC-background-color{
+  background-color: #ecf0f2 !important;
+}
+
 .MDC-color-grey{
 	color: #9c9c9c;
 }
@@ -911,6 +919,10 @@ nav ul li a.MDC-navbar-active {
 
 .MDC-margin-right50{
   margin-right: 50px;
+}
+
+.MDC-margin-left10{
+  margin-left: 10px !important;
 }
 
 /*-------------------------------------------------*/
@@ -1059,7 +1071,13 @@ nav ul li a.MDC-navbar-active {
   margin: 0 auto !important;
 }
 
+/*-------------------------------------------------*/
+/* GENERAL - POSITION                              */
+/*-------------------------------------------------*/
 
+.MDC-display-flex{
+  display: flex !important;
+}
 
 /*-------------------------------------------------*/
 /* FONT - STYLE                                    */
