@@ -500,7 +500,7 @@ nav ul li a.MDC-navbar-active {
 }
 
 .MDC-category-form-border-size {
-	width: 200px !important;
+  border-width: 250px !important;
 }
 
 .MDC-profile-card-container{
