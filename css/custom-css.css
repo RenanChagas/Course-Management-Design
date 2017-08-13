@@ -14,12 +14,27 @@
   position: relative;
  }
 
+ .MDC-center-container-signup{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+  }
+
 .MDC-center-image{
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
+
+.MDC-center-image2{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  position: relative;
+}
+
 
 .MDC-form-text{
   letter-spacing: 0.7px;
@@ -1123,39 +1138,37 @@ nav ul li a.MDC-navbar-active {
   font-size: 12px !important;
 }
 
-@font-face {
-  font-family: "SanFrancisco Ultralight";
-  src: local(SanFrancisco Ultralight),
-       url("../fonts/YosemiteSanFranciscoFont/System-San-Francisco-Display-Ultralight.ttf") format("truetype");
-  font-weight: 100;
+
+/*-------------------------------------------------*/
+/* POSITION - CUSTOM                               */
+/*-------------------------------------------------*/
+
+.MDC-fixed{
+  position: fixed !important;
+}
+
+/*-------------------------------------------------*/
+/* MDC-LOGO SIZES                                  */
+/*-------------------------------------------------*/
+
+.MDC-signup-logo-size{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+
+/*-------------------------------------------------*/
+/* MDC-SIGNUP                                      */
+/*-------------------------------------------------*/
+
+.MDC-signup-box{
+  width: auto;
+  max-width: auto;
 }
 
 
-
-@font-face {
-  font-family: "SanFrancisco Thin";
-  src: local(SanFrancisco thin),
-       url("../fonts/YosemiteSanFranciscoFont/System-San-Francisco-Display-Thin.ttf") format("truetype");
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "SanFrancisco";
-  src: local(SanFrancisco Regular),
-       url("../fonts/YosemiteSanFranciscoFont/System-San-Francisco-Display-Regular.ttf") format("truetype");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "SanFrancisco";
-  src: local(SanFrancisco Medium),
-       url("../fonts/YosemiteSanFranciscoFont/System-San-Francisco-Display-Regular.ttf") format("truetype");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "SanFrancisco";
-  src: local(SanFrancisco Bold),
-       url("../fonts/YosemiteSanFranciscoFont/System-San-Francisco-Display-Bold.ttf") format("truetype");
-  font-weight: 700;
+.MDC-margin-signupImage{
+  margin-bottom: 140px !important;
+  margin-top: 40px !important;
+  margin-left: 10px !important;
 }
